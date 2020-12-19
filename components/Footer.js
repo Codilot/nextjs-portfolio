@@ -6,7 +6,7 @@ const Footer = () => (
             <ul>
                 <li>
                     <a
-                        href="mailto:info@evelinekooijman.com"
+                        href="mailto:eve@ui-jinn.com"
                         class="icon email"
                         title="Email"
                     >

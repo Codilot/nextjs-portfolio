@@ -62,33 +62,10 @@ export default function Home() {
                     align-items: center;
                 }
 
-
                 a {
-                    color: inherit;
+                    color: #864CFF;
                     text-decoration: none;
                 }
-
-                .title a {
-                    color: #0070f3;
-                    text-decoration: none;
-                }
-
-                .title a:hover,
-                .title a:focus,
-                .title a:active {
-                    text-decoration: underline;
-                }
-
-                code {
-                    background: #fafafa;
-                    border-radius: 5px;
-                    padding: 0.75rem;
-                    font-size: 1.1rem;
-                    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-                        DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New,
-                        monospace;
-                }
-
                 .grid {
                     display: flex;
                     align-items: center;
@@ -114,8 +91,8 @@ export default function Home() {
                 .card:hover,
                 .card:focus,
                 .card:active {
-                    color: #0070f3;
-                    border-color: #0070f3;
+                    color: #864CFF;
+                    border-color: #864CFF;
                 }
 
                 .card h3 {
@@ -128,13 +105,6 @@ export default function Home() {
                     font-size: 1.25rem;
                     line-height: 1.5;
                 }
-
-                .logo {
-                    height: 1em;
-                }
-                .hero {
-                }
-
                 @media (max-width: 600px) {
                     .grid {
                         width: 100%;
@@ -151,6 +121,7 @@ export default function Home() {
                     padding: 0;
                     margin: 0;
                     font-family: 'Montserrat', sans-serif;
+                    color:  #333333;
                 }
 
                 * {

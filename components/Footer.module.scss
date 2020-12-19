@@ -1,4 +1,5 @@
 @import '../styles/spaces.scss';
+@import '../styles/colors.scss';
 
 .footer {
     padding: ($space * 4) 0;
@@ -23,4 +24,7 @@
 .imprint {
     text-align: center;
     line-height: 2;
+    a { 
+        color:  $primary-color
+    }
 }
