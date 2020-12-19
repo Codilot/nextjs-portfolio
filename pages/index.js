@@ -1,6 +1,7 @@
 import Head from '../components/Head'
 import Logo from '../components/Logo'
 import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 
 export default function Home() {
     return (
@@ -8,7 +9,7 @@ export default function Home() {
             <Head />
             <Logo />
             <main>
-                <Hero/>
+                <Hero />
                 <div className="grid">
                     <a href="#" className="card">
                         <h3>Prototypes &rarr;</h3>
@@ -45,13 +46,7 @@ export default function Home() {
                     </a>
                 </div>
             </main>
-
-            <footer>
-                <a href="" target="_blank" rel="noopener noreferrer">
-                    Powered by{' '}
-                    <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-                </a>
-            </footer>
+            <Footer />
 
             <style jsx>{`
                 .container {
@@ -67,24 +62,6 @@ export default function Home() {
                     align-items: center;
                 }
 
-                footer {
-                    width: 100%;
-                    height: 100px;
-                    border-top: 1px solid #eaeaea;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-
-                footer img {
-                    margin-left: 0.5rem;
-                }
-
-                footer a {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
 
                 a {
                     color: inherit;
@@ -101,8 +78,6 @@ export default function Home() {
                 .title a:active {
                     text-decoration: underline;
                 }
-
-                
 
                 code {
                     background: #fafafa;
@@ -157,8 +132,7 @@ export default function Home() {
                 .logo {
                     height: 1em;
                 }
-                .hero{
-
+                .hero {
                 }
 
                 @media (max-width: 600px) {
