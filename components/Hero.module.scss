@@ -1,0 +1,28 @@
+@import '../styles/breakpoints.scss';
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-height: 400px;
+    @media (min-width: $breakpoint-sm) {
+        min-height: 500px;
+    }
+    &__title {
+        margin: 0;
+        font-size: 2.5rem;
+        line-height: 1.15;
+        @media (min-width: $breakpoint-sm) {
+            line-height: 1.15;
+            font-size: 4rem;
+        }
+    }
+    &__description {
+        font-size: 1.2rem;
+        @media only screen and (min-width: $breakpoint-sm) {
+            font-size: 1.5rem;
+            line-height: 1.5;
+        }
+    }
+}

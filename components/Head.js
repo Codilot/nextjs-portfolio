@@ -3,7 +3,7 @@ import Head from 'next/head'
 const HeadComp = () => (
     <Head>
         <title>Eveline Kooijman | Designer | Developer</title>
-        <meta charset="utf-8" />
+        <meta charSet="utf-8" />
         <meta
             name="description"
             content="Eveline Kooijman designs / develops interfaces, prototypes and design systems."
