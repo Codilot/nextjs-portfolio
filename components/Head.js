@@ -2,11 +2,11 @@ import Head from 'next/head'
 
 const HeadComp = () => (
     <Head>
-        <title>Eveline Kooijman | Designer | Developer</title>
+        <title>UI Jinn</title>
         <meta charSet="utf-8" />
         <meta
             name="description"
-            content="Eveline Kooijman designs / develops interfaces, prototypes and design systems."
+            content="UI Jinn creates interfaces, prototypes and design systems."
         />
         <meta
             name="viewport"
@@ -15,7 +15,7 @@ const HeadComp = () => (
         />
         <meta
             property="og:title"
-            content="Eveline Kooijman designs / develops interfaces, prototypes and design systems."
+            content="UI Jinn creates interfaces, prototypes and design systems."
             key="title"
         />
         <link rel="icon" href="/favicon.ico" />

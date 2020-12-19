@@ -42,9 +42,9 @@ const Footer = () => (
             </ul>
         </div>
         <p className={styles.imprint}>
-            Made with &#10084; with by your &nbsp;
+            Made with &#10084; by your &nbsp;
             <a href="https://www.linkedin.com/in/madebyeve/" target="_blank">
-                ui jinn
+                UI Jinn
             </a>
             .
             <br />
