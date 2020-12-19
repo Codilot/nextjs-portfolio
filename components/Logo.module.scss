@@ -1,12 +1,12 @@
 @import '../styles/breakpoints.scss';
+@import '../styles/spaces.scss';
 
 .brand {
-    padding: 20px;
+    padding: $space * 2;
     svg {
         width: 80px;
         @media only screen and (min-width: $breakpoint-md ) {
-            width: 120px;
-            height: 60px;
+            width: 100px;
         }
     }
 }
