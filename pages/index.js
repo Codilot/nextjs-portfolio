@@ -63,7 +63,7 @@ export default function Home() {
                 }
 
                 a {
-                    color: #864CFF;
+                    color: #864cff;
                     text-decoration: none;
                 }
                 .grid {
@@ -91,8 +91,8 @@ export default function Home() {
                 .card:hover,
                 .card:focus,
                 .card:active {
-                    color: #864CFF;
-                    border-color: #864CFF;
+                    color: #864cff;
+                    border-color: #864cff;
                 }
 
                 .card h3 {
@@ -121,7 +121,7 @@ export default function Home() {
                     padding: 0;
                     margin: 0;
                     font-family: 'Montserrat', sans-serif;
-                    color:  #333333;
+                    color: #333333;
                 }
 
                 * {

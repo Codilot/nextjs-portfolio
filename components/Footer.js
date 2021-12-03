@@ -7,7 +7,7 @@ const Footer = () => (
                 <li>
                     <a
                         href="mailto:eve@ui-jinn.com"
-                        class="icon email"
+                        className="icon email"
                         title="Email"
                     >
                         <svg viewBox="0 0 512 512">
@@ -19,7 +19,7 @@ const Footer = () => (
                 <li>
                     <a
                         href="https://github.com/Codilot"
-                        class="icon github"
+                        className="icon github"
                         title="GitHub"
                     >
                         <svg viewBox="0 0 512 512">
@@ -31,7 +31,7 @@ const Footer = () => (
                 <li>
                     <a
                         href="https://www.linkedin.com/in/madebyeve/"
-                        class="icon linkedin"
+                        className="icon linkedin"
                         title="LinkedIn"
                     >
                         <svg viewBox="0 0 512 512">
@@ -43,7 +43,11 @@ const Footer = () => (
         </div>
         <p className={styles.imprint}>
             Made with &#10084; by your &nbsp;
-            <a href="https://www.linkedin.com/in/madebyeve/" target="_blank">
+            <a
+                href="https://www.linkedin.com/in/madebyeve/"
+                target="_blank"
+                rel="noreferrer"
+            >
                 UI Jinn
             </a>
             .
