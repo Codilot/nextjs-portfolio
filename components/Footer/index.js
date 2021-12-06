@@ -1,4 +1,6 @@
 import styles from './Footer.module.scss'
+import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
 
 const Footer = () => (
     <footer className={styles.footer}>
@@ -41,7 +43,7 @@ const Footer = () => (
                 </li>
             </ul>
         </div>
-        <p className={styles.imprint}>
+        <Typography variant="body2" align="center">
             Made with &#10084; by your &nbsp;
             <a
                 href="https://www.linkedin.com/in/madebyeve/"
@@ -53,7 +55,7 @@ const Footer = () => (
             .
             <br />
             &copy; 2020
-        </p>
+        </Typography>
     </footer>
 )
 

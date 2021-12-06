@@ -1,17 +1,54 @@
-import styles from './Hero.module.scss'
+import Typography from '@mui/material/Typography'
+import Box from '@mui/material/Box'
 
 const Hero = () => {
+    const headlineStyles = {
+        fontWeight: 900,
+        fontSize: '2.5rem',
+        color: 'text.primary',
+        sm: {
+            lineHeight: 1.15,
+            fontSize: '4rem',
+        },
+    }
+    const sublineStyles = {
+        fontSize: '1.2rem',
+        color: 'text.primary',
+        sm: {
+            lineHeight: 1.5,
+            fontSize: '1.5rem',
+        },
+    }
+    const boxStyles = {
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        minHeight: '400px',
+    }
+
     return (
-        <div className={styles.hero}>
-            <h1 className={styles.hero__title}>
+        <Box sx={boxStyles}>
+            <Typography
+                sx={headlineStyles}
+                variant="h1"
+                component="h1"
+                gutterBottom
+                align="center"
+            >
                 I build interfaces, <br />
                 prototypes and design systems.
-            </h1>
+            </Typography>
 
-            <p className={styles.hero__description}>
+            <Typography
+                sx={sublineStyles}
+                variant="h2"
+                gutterBottom
+                component="h2"
+                align="center"
+            >
                 And help your software products grow fast.
-            </p>
-        </div>
+            </Typography>
+        </Box>
     )
 }
 
